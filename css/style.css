@@ -38,9 +38,9 @@ span{
 
 /*segunda seccion*/
 #titulo{
-	
 	font-size: 18px;
-	margin-top: 150px;
+	margin-top: 100px;
+	margin-bottom: 30px;
 }
 #gold{
 	color: #BA8E0A;
@@ -69,6 +69,7 @@ span{
 	margin-top: 20vh;
 	margin-bottom: 50px;
 }
+
 /*cuarta seccion*/
 .cuarta-seccion{
 	background-image: url(../img/all.jpg);
@@ -93,4 +94,32 @@ span{
 .fa{
 	color: #BA8E0A;
 	margin-bottom: 10px;
+}
+/*QUINTA SECCION*/
+.sexta-seccion{
+	background-color: #A89F68;
+}
+.line{
+	border-top: 1px solid white;
+}
+/**/
+.valores-sexta{
+
+}
+small{
+	color: white;
+	font-size: 15px;
+}
+big{
+	color: white;
+	font-size: 80px;
+}
+p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#sexta h4{
+	color: #41521F; 
+	margin-top: 50px;
+	font-size: 20px;
 }
