@@ -81,6 +81,7 @@ span{
 #parrafo-cuatro{
 	font-size: 20px;
 }
+/*QUINTA SECCION*/
 .quinta-seccion{
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -95,16 +96,12 @@ span{
 	color: #BA8E0A;
 	margin-bottom: 10px;
 }
-/*QUINTA SECCION*/
+/*sexta seccion*/
 .sexta-seccion{
 	background-color: #A89F68;
 }
 .line{
 	border-top: 1px solid white;
-}
-/**/
-.valores-sexta{
-
 }
 small{
 	color: white;
@@ -122,4 +119,28 @@ p{
 	color: #41521F; 
 	margin-top: 50px;
 	font-size: 20px;
+}
+#valores-sexta{
+	margin-bottom: 100px;
+}
+
+
+/*footer*/
+.foo{
+	color: #BA8E0A;
+	background-color: #41521F;
+}
+.foo h5{
+		margin-top: 70px;
+}
+#texto-pie{
+	color: white;
+}
+.foo a{
+	font-size: 15px;
+}
+#items{
+	color: #BA8E0A;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
