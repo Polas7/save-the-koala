@@ -77,4 +77,20 @@ span{
 	background-repeat: no-repeat;
 	background-position: center;
 }
+#parrafo-cuatro{
+	font-size: 20px;
+}
+.quinta-seccion{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#quinta{
+	color: #BA8E0A;
+}
+#parrafo-quinto{
+	margin-top: 25px;
+}
+.fa{
+	color: #BA8E0A;
+	margin-bottom: 10px;
 }
