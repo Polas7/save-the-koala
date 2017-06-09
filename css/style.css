@@ -3,13 +3,14 @@ wood brown: A89F68;
 army green: 41521F;
 */
 *{
+
 }
 .primera-seccion{
-	display: center;
 	background-image: url(../img/portada.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #marca{
@@ -25,5 +26,55 @@ a{
 	
 }
 span{
-	background-color: blue;
+	background-color: white;
+}
+.portada-texto{
+	margin-top: 300px;
+}
+#cuadro-texto{
+	color: white;
+	margin-top: 150px;
+}
+
+/*segunda seccion*/
+#titulo{
+	
+	font-size: 18px;
+	margin-top: 150px;
+}
+#gold{
+	color: #BA8E0A;
+}
+#vinculo{
+	color: #BA8E0A;
+}
+.features p{
+	font-size: 15px;
+}
+#koala3{
+	margin-top: 50px;
+}
+/*tercera seccion*/
+.tercera-seccion{
+	background-color: #A89F68;
+}
+#titulo-verde{
+	color: #41521F;
+}
+.btn{
+	border: none; 
+	background-color: #41521F;
+}
+#koala-tercero{
+	margin-top: 20vh;
+	margin-bottom: 50px;
+}
+/*cuarta seccion*/
+.cuarta-seccion{
+	background-image: url(../img/all.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 }
