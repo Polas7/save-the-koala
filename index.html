@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Save the Koala</title>
+	<title>Save The Koala</title>
+	<meta charset="UTF-8">
+	<!-- Viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--iconos-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--fuentes-->
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head><!---->
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+	<!-- Linkear Font Awesome -->
+	<script src="https://use.fontawesome.com/6bff936249.js"></script>
+	<!-- CDN bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<!---->
 <body>
 	<section class="primera-seccion collapsed">
 		<nav class="navbar navbar-static-top">
@@ -41,7 +44,7 @@
 				<div id="cuadro-texto" class="col-lg-4 col-xs-12 text-left">
 					<h2>Save The Koala</h2>
 					<p>Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
-					<button type="button" class="btn btn-success">See More</button>
+					<button type="button" class="btn btn" data-toggle="tooltip" data-placement="bottom" title="holi, soy un boton">See Me</button>
 				</div>
 			</div>
 		</div>	
@@ -51,7 +54,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 hidden-xs">
-					<img src="img/tres.jpg" id="koala3" alt="koala1" class="img-responsive">
+					<img src="assets/img/tres.jpg" id="koala3" alt="koala1" class="img-responsive">
 				</div>
 				<div class="col-lg-6 col-xs-12">
 					<div class="features" id="titulo">
@@ -85,10 +88,35 @@
 						<h5>EASY HELP</h5>
 						<h2 id="titulo-verde"><strong>Save Koalas From Possible Extinction!</strong></h2>
 						<p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected..</p>
-						<button type="button" class="btn btn-success">Read More</button>
+						
+						<div class="container">
+						<!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Read more</button>
+							<!-- Modal -->
+							<div class="modal fade" id="myModal" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">ERROR 404</h4>
+										</div>
+										<div class="modal-body">
+											<p>Algo ocurrio mal! Intenta nuevamente.</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
 					</div>
 					<div class="col-lg-4  col-xs-12">
-						<img id="koala-tercero" src="img/cosita.jpg" alt="koal" class="img-thumbnail img-responsive">
+						<img id="koala-tercero" src="assets/img/cosita.jpg" alt="koal" class="img-thumbnail img-responsive">
 					</div>
 				</div>
 			</div>		
@@ -209,6 +237,10 @@
 					</div>
 				</section>
 			</footer>
+			<!-- Script de Jquery y Bootstrap -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+			<script type="text/javascript" src="assets/js/main.js"></script>
 		</body>
 		</html>		
 
