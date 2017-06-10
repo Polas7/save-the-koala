@@ -76,9 +76,7 @@ span{
 }
 
 /*cuarta seccion*/
-.cuarta-seccion{
-	background-image: url(../img/all.jpg);
-	height: 100vh;
+#carousel-example-generic{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -86,6 +84,7 @@ span{
 #parrafo-cuatro{
 	font-size: 20px;
 }
+
 /*QUINTA SECCION*/
 .quinta-seccion{
 	margin-top: 50px;
