@@ -127,8 +127,11 @@ p{
 #valores-sexta{
 	margin-bottom: 100px;
 }
-
-
+.well{
+	background-color: #41521F;
+	border-color: black;
+	color: white;
+}
 /*footer*/
 .foo{
 	color: #BA8E0A;
